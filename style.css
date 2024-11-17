@@ -96,7 +96,39 @@ body {
 
 }
 
+.container {
+    width: 30vw;
+    height: 80vh;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    color: hsl(0, 0%, 100%);
+    align-content: center;
+    text-align: center;
+    margin-left: 36vw;
+    margin-top: 12vh;
+}
 
+.link {
+    background-color: hsl(0, 0%, 20%);
+    width: 22vw;
+    height: 6vh;
+    margin-left: 4vw;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 500ms;
+}
+
+.img {
+    width: 7vw;
+    height: 14vh;
+    border-radius: calc(4vw + 1vh);
+    margin-top: 3vh;
+}
+
+h2 {
+    font-size: 2.2vw;
+}
 
 h3 {
     color: hsl(75, 94%, 57%);
